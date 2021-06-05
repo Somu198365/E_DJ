@@ -1,0 +1,84 @@
+.header{
+    width: 100%;
+    font-size: 20px;
+    margin: 20px;
+    animation: colour-animation 3s infinite linear alternate;
+}
+@keyframes colour-animation {
+    0% {
+       background: #d0ff01;
+    }
+    50% {
+       background: #00ffbf;
+    } 
+    100% {
+       background: #374f63
+    } 
+ }
+ @keyframes note-animation {
+    0% {
+       background: #390cdb;
+    }
+    50% {
+       background: #f811be;
+    } 
+    100% {
+       background: #ffffff
+    } 
+ }
+ @keyframes nani-animation {
+    0% {
+       size: 10px;
+    }
+    50% {
+       size: 50px;
+    } 
+    100% {
+       size: 100px;
+    } 
+ }
+.note{
+    font-size: 15px;
+    animation: note-animation 3s infinite linear alternate;
+}
+body{
+    background-size: cover;
+}
+.disk_speed{
+    float: left;
+    margin: 30px;
+}
+img{
+width: 200px;
+height: 200px;
+}
+.disk_speed1{
+    float: right;
+    margin: 30px;
+}
+@keyframes color-animation {
+    0% {
+       background: #ad1457;
+    }
+    50% {
+       background: #6a1b9a;
+    } 
+    100% {
+       background: #bbdefb
+    } 
+ }
+#speed{
+    margin-left: 50px;
+    animation: color-animation 3s infinite linear alternate;
+}
+#volume{
+    margin-left: 50px;
+    animation: color-animation 3s infinite linear alternate;
+}
+.play{
+    animation: color-animation 1s infinite linear alternate;
+}
+canvas{
+   border: 3px solid white;
+   border-radius: 3px;
+}
